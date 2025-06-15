@@ -1,0 +1,25 @@
+[project]
+name = "trading-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rohit Kumar", email = "r.kumar01@hotmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "alpaca-trade-api>=3.2.0",
+    "black>=25.1.0",
+    "holidays>=0.74",
+    "isort>=6.0.1",
+    "lumibot>=3.6.5",
+    "python-dotenv>=1.1.0",
+    "thetadata==0.9.11",
+    "timedelta>=2020.12.3",
+    "torch>=2.7.1",
+    "transformers>=4.52.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
